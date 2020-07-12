@@ -35,6 +35,15 @@ class CommissionEmployee(SalaryEmployee):
 
 class Manager(SalaryEmployee):
     def work(self, hours):
-        print(f"{self.name} Screams anf yells for {hours} hours.")
+        print(f"{self.name} Screams and yells for {hours} hours.")
 
-class
+class Secretary(SalaryEmployee):
+    def work(self1, hours):
+        print(f"{self.name} spends {hours} hours doing office paperwork.")
+class SalesPerson(CommissionEmployee):
+    def work(self, hours):
+        print(f"{self.name} spends {hours} hours on the phone.")
+
+class FactoryWorker(HourlyEmployee):
+    def work(self, hours):
+        print(f"{self.name} spends {hours} hours manufacturing proucts.)

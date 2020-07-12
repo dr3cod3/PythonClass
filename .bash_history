@@ -104,3 +104,17 @@ git status
 .gitignore
 mkdir .gitignore
 touch .gitignore
+git add .
+git status
+git commit -m "initial"
+$ git remote add origin https://github.com/dr3cod3/PythonClass.git
+git config --global dr3cod3form3@outlook.com
+git config --global "dr3cod3form3@outlook.com"
+git config --global user.email "dr3cod3form3@outlook.com"
+git config --global user.name "Adebola Adesina"
+$ git remote add origin https://github.com/dr3cod3/PythonClass.git
+git commit -m "initial"
+$ git remote add origin https://github.com/dr3cod3/PythonClass.git
+git remote add origin https://github.com/dr3cod3/PythonClass.git
+git push -u origin  master
+clear
